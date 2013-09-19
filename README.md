@@ -22,9 +22,9 @@ class Customer
 
 Your project contains a list of Customers: 
 
-List<Customer> customers;
+List<Customer> customers:
 
-Christmas is coming up, and you want to send holiday greetings to all your customers. You can do this by calling SendGreetings(IList<string> names). But the SendGreetings method requires a list of strings, and you've got a list of Customers. What to do?
+Christmas is coming up, and you'd like to send holiday greetings to all your customers. To do this, you need to call SendGreetings(IList<string> names). But the SendGreetings method requires a list of strings, and you've got a list of Customers. What to do?
 
 You could create a copy of the list, like this:
 
