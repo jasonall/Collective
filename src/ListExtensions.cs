@@ -348,5 +348,18 @@
 
             return true;
         }
+
+        /// <summary>
+        /// Converts the list into a ListConverter.
+        /// </summary>
+        /// <typeparam name="TOriginal">The type of item in the original list.</typeparam>
+        /// <typeparam name="TConverted">The type of item in the converted list.</typeparam>
+        /// <param name="list">The list to convert.</param>
+        /// <param name="converter">Func to convert list items.</param>
+        /// <returns>The converted list.</returns>
+        public static IList<TConverted> ToListConverter<TOriginal, TConverted>(this IList<TOriginal> list, Func<TOriginal, TConverted> converter)
+        {
+            return new ListConverter<TOriginal, TConverted>(list, converter);
+        }
     }
 }
