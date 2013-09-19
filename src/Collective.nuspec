@@ -7,7 +7,7 @@
     <authors>jasonall@outlook.com</authors>
     <owners>jasonall@outlook.com</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
-    <projectUrl>https://github.com/jasonall/Funcursive</projectUrl>
+    <projectUrl>https://github.com/jasonall/Collective</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>.NET collection extensions</description>
     <releaseNotes></releaseNotes>
